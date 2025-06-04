@@ -1,4 +1,5 @@
 # DepositoJava_Alessandro_Gustavo_Russo
 
 
-Lezione  Introduzione OOP, primi concetti di Java 
+-Lezione  Introduzione OOP, primi concetti di Java 
+-esercitazioni incapsulamento 
