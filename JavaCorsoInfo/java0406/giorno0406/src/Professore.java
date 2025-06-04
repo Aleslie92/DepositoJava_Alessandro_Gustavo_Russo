@@ -22,6 +22,14 @@ public class Professore {
         return null; // se non trovato
     }
 
+    public void mettiVoto(Studente studente, int voto) {
+        if (studenti.contains(studente)) {
+            studente.setVoto(voto);
+        } else {
+            System.out.println("Studente non trovato.");
+        }
+    }
+
     public void stampaStudenti() {
         for (Studente s : studenti) {
             System.out.println("Studente: " + s.getNome() + ", Voto: " + s.getVoto());
