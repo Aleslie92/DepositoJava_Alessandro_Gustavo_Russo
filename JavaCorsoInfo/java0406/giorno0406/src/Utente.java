@@ -6,9 +6,15 @@ public class Utente {
     private String email;
     private float soldi;
 
-    public Utente(String username, String password) {
+    // public Utente(String username, String password) {
+    // this.username = username;
+    // this.password = password;
+    // }
+
+    public Utente(String username, String email) {
         this.username = username;
-        this.password = password;
+        this.email = email;
+        this.soldi = randomizzaSoldi(); // Inizializza soldi con un valore casuale
     }
 
     public Utente(String username, String password, String email, float soldi) {

@@ -290,9 +290,13 @@ public class App {
         if (scelta == 1) {
             utente = new Chef(nome, email);
             System.out.println("Hai scelto di diventare un Chef!");
+            System.out.println(utente.getUsername() + " ha " + String.format("%.2f", utente.getSoldi())
+                    + "€ nel suo portafoglio.");
         } else {
             utente = new Critico(nome, email);
             System.out.println("Hai scelto di diventare un Critico!");
+            System.out.println(utente.getUsername() + " ha " + String.format("%.2f", utente.getSoldi())
+                    + "€ nel suo portafoglio.");
         }
 
         boolean continua = true;
